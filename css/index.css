@@ -160,6 +160,42 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.nav-section {
+  width: 100%;
+  flex-direction: column;
+  background: #F6F6F6;
+  border: #F1F1F1;
+}
+.nav-section .space-box {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav-section .space-box h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+.nav-section nav {
+  margin-top: 1rem auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-end;
+}
+.nav-section nav a {
+  text-decoration: none;
+  color: #454A59;
+  font-size: 1.8em;
+  display: flex;
+  align-content: flex-end;
+  margin: 0.5rem 2rem;
+}
+.nav-section nav a:hover {
+  text-decoration: underline;
+  color: black;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
@@ -211,6 +247,22 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  width: 100px;
+  background: #22283A;
+  color: #F6F6F6;
+  height: 35px;
+  border-radius: 5px;
+  display: block;
+  font-size: 1.7rem;
+  text-align: center;
+  padding: 7px;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background: #F6F6F6;
+  border: 1px #22283A solid;
 }
 .home .walk .walk-img {
   width: 46%;

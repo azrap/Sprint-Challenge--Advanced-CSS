@@ -1,1 +1,48 @@
 // Navigation code here
+.nav-section{  
+    width: 100%;
+    // .display-flex-wrap;
+    flex-direction: column;
+    background: @nav-bg;
+    border:@nav-border;
+    
+
+    .space-box{
+        margin-bottom: 1rem;
+        // border: @test-border;
+        .display-flex-wrap;
+        justify-content: center;
+        h1{
+            font-size:4rem;
+            margin-top:1rem;
+        }
+    }
+
+    nav {
+        margin-top: 1rem auto; 
+        width: 100%;
+        .display-flex-wrap;
+        justify-content:center;
+        align-content:flex-end;
+        //  border: @test-border;
+         
+
+        a {
+            text-decoration: none;
+            color:@nav-font;
+            font-size: 1.8em;
+            //  border: @test-border;
+            display:flex;
+            align-content:flex-end;
+            margin:.5rem 2rem;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: black;
+    }
+
+    
+}
+
+    }
