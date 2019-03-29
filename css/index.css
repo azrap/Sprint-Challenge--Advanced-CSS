@@ -183,7 +183,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   align-content: flex-end;
-  margin-bottom: 1%;
+  padding-bottom: 1%;
 }
 @media ( max-width: 500px) {
   .nav-section nav {
@@ -229,6 +229,10 @@ footer {
   .home .intro p {
     font-size: 1.5rem;
   }
+}
+.home .intro .header-img {
+  align-self: center;
+  border-radius: 5px;
 }
 @media ( max-width: 500px) {
   .home .intro .header-img {
